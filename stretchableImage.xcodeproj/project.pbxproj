@@ -13,6 +13,8 @@
 		658FC01C2799455D00688853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658FC01A2799455D00688853 /* Main.storyboard */; };
 		658FC01E2799456100688853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658FC01D2799456100688853 /* Assets.xcassets */; };
 		658FC0212799456100688853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658FC01F2799456100688853 /* LaunchScreen.storyboard */; };
+		658FC029279E95F200688853 /* LyricTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658FC028279E95F200688853 /* LyricTableViewCell.swift */; };
+		658FC02B279EAB4400688853 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658FC02A279EAB4400688853 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		658FC01D2799456100688853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		658FC0202799456100688853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		658FC0222799456100688853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		658FC028279E95F200688853 /* LyricTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricTableViewCell.swift; sourceTree = "<group>"; };
+		658FC02A279EAB4400688853 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				658FC0142799455D00688853 /* AppDelegate.swift */,
 				658FC0162799455D00688853 /* SceneDelegate.swift */,
 				658FC0182799455D00688853 /* ViewController.swift */,
+				658FC02A279EAB4400688853 /* FirstViewController.swift */,
 				658FC01A2799455D00688853 /* Main.storyboard */,
+				658FC028279E95F200688853 /* LyricTableViewCell.swift */,
 				658FC01D2799456100688853 /* Assets.xcassets */,
 				658FC01F2799456100688853 /* LaunchScreen.storyboard */,
 				658FC0222799456100688853 /* Info.plist */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658FC02B279EAB4400688853 /* FirstViewController.swift in Sources */,
 				658FC0192799455D00688853 /* ViewController.swift in Sources */,
+				658FC029279E95F200688853 /* LyricTableViewCell.swift in Sources */,
 				658FC0152799455D00688853 /* AppDelegate.swift in Sources */,
 				658FC0172799455D00688853 /* SceneDelegate.swift in Sources */,
 			);
